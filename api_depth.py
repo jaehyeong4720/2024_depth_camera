@@ -2,7 +2,7 @@ import Jetson.GPIO as GPIO
 import time
 
 class Controller_API:
-    def __init__(self, pwm_pin, relay_pin, frequency=1000):
+    def __init__(self, pwm_pin, relay_pin, frequency=10000):
         """
         ControllerAPI 초기화 함수
         :param pwm_pin: 제어할 GPIO 핀 번호 (BOARD 모드 기준)
